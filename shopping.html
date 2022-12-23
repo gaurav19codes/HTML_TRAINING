@@ -1,0 +1,51 @@
+<!-- create an html page with a dropdown that contains list of shopping item.
+
+You can select one and add, when you add an item it gets pushed into a javascript array and you
+
+ should show the array content on your page -->
+
+
+
+ <html>
+
+    <head>
+
+        <title>Shopping </title>
+
+    </head>
+
+    <body>
+
+        <h1>Shopping Item List</h1>
+
+        <label for="item">Item :</label>
+
+        <select name="item" id="item">
+
+            <option id="Cooler">Cooler</option>
+
+            <option id="pants">Pants</option>
+
+            <option id="car">Car</option>
+
+            <option id="shirt">Shirt</option>
+
+            <option id="pen">Pen</option>
+
+            <option id="pencil">Pencil</option>
+
+        </select> <br><br>
+
+        <input type="button" class="b1" onclick="shop()" value="Add to Cart"/> <br><br>
+
+        <p>Total Item:</p>
+
+        <span id="result"></span>
+
+        <script src="shop.js"> </script>
+
+
+
+    </body>
+
+ </html>

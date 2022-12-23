@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+}
+
+#sh {
+    text-shadow: 2px 2px 5px red;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+table{
+    text-transform: capitalize;
+}
+
+p:nth-child(odd) {
+    background-color: blue;
+}
